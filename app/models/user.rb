@@ -4,8 +4,13 @@ class User < ApplicationRecord
   # devise :database_authenticatable, :registerable,
   #        :recoverable, :rememberable, :validatable
 
-  has_many :tasks
-  has_many :notes, through: :tasks
+  has_many :tasks, :dependent => :destroy
+  # has_many :notes, through: :tasks
+
+
+  validates :name, presence: true
+  validates :email, presence: true
+  validates :username, presence: true
 
   devise :database_authenticatable,
   :jwt_authenticatable,

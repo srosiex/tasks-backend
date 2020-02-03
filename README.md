@@ -1,24 +1,9 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+JavaScript
+[x] Use classes and functions to organize your code into reusable pieces.
+[x] Translate JSON responses into JavaScript model objects using ES6 class or constructor function syntax.
+[x] Use ES6 features when appropriate (e.g. arrow functions, let & const, rest and spread syntax).
+Rails
+[x] Follow Rails MVC and RESTful conventions. That means, for example, that a request GET /puppies ought to be handled by the PuppiesController, fetch puppies from the database using a Puppy Active Record model, and return a list of puppies as JSON.
+[x] Well-named variables and methods
+[x] Short, single-purpose methods

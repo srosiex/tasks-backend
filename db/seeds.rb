@@ -8,6 +8,8 @@
 User.destroy_all
 Task.destroy_all
 
-sarah = User.create(name: 'Sarah', username: 'sh1', email: 'sh@gmail.com', password: 'test')
+sarah = User.create(name: 'S', username: 'sh11', email: 'sh1@gmail.com', password: 'test')
 
 task1 = Task.create(content: 'Finish labs.', user: sarah)
+
+note1 = Note.create(reflect: "notes for task")
